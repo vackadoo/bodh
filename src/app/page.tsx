@@ -2,6 +2,7 @@ import AboutSeriesSection from "@/components/home/AboutSeriesSection";
 import HeroSection from "@/components/home/HeroSection";
 import IntroductionSection from "@/components/home/IntroductionSection";
 import LocationsSection from "@/components/home/LocationsSection";
+import Objectives from "@/components/home/Objectives";
 import ThemeAndFocusArea from "@/components/home/ThemeAndFocusArea";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutSeriesSection />
       <ThemeAndFocusArea />
       <LocationsSection />
+      <Objectives />
     </div>
   );
 }

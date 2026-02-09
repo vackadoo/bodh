@@ -2,13 +2,13 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col justify-start overflow-hidden bg-gradient-to-b from-orange-50/50 to-white dark:from-zinc-900 dark:to-zinc-950">
+    <section className="relative min-h-screen flex flex-col justify-start overflow-hidden bg-gradient-to-b from-orange-50/50 to-white dark:from-zinc-900 dark:to-zinc-950 md:mt-3">
       {/* --- Main Hero Image --- */}
       <div className="relative z-10 w-full h-screen">
         <img
           src="/banner.png"
           alt="Hero banner"
-          className="w-full h-full object-contain"
+          className="w-full h-full object-cover object-center"
         />
       </div>
 

@@ -127,7 +127,7 @@ const LocationsSection = () => {
           <div className="max-w-2xl ">
 
             <h2 className="text-4xl  md:text-6xl font-bold text-zinc-900 font-display leading-tight">
-            Locations
+        LOCATIONS
             </h2>
           </div>
    
