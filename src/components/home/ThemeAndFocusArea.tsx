@@ -516,60 +516,73 @@ const ThemeCircularLoop = () => {
       id: "01",
       category: "Philosophy",
       title: "Indian Culture & Philosophy",
-      description:
-        "Delve into the foundational texts and oral traditions that have shaped the Indian subcontinent's worldview for millennia.",
-      image:
-        "https://images.unsplash.com/photo-1599707367072-cd6ad6cb3d57?q=80&w=800&auto=format&fit=crop",
+      description: "Indian Culture, Philosophy and History",
+      image: "/indian culture.jpg.jpeg",
       color: "bg-orange-500",
     },
     {
       id: "02",
       category: "Heritage",
       title: "Cultural Preservation",
-      description:
-        "Strategies for conserving archaeological sites and intangible heritage in the face of rapid urbanization.",
-      image:
-        "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=800&auto=format&fit=crop",
+      description: "Cultural Preservation and Archaeological Heritage",
+      image: "/archaeological.jpg.jpeg",
+
       color: "bg-amber-600",
     },
     {
       id: "03",
       category: "Geopolitics",
       title: "Maritime Heritage",
-      description:
-        "Analyzing India's historic influence across the Indian Ocean rim and its relevance to modern naval strategy.",
-      image:
-        "https://images.unsplash.com/photo-1582560475093-453127618355?q=80&w=800&auto=format&fit=crop",
+      description: "Maritime Heritage and Geopolitical Significance.",
+      image: "/maritime.jpg.jpeg",
       color: "bg-blue-600",
     },
     {
       id: "04",
-      category: "Economics",
-      title: "Economic History",
-      description:
-        "Tracing the trajectory of Indian commerce from the Silk Road era to the digital economy of today.",
-      image:
-        "https://images.unsplash.com/photo-1526304640152-d4619684e484?q=80&w=800&auto=format&fit=crop",
+      category: "Constitutional Values",
+      title: "Constitutional Values",
+      description: "Constitutional Values and Good Governance",
+      image: "/constitutional values.jpg.jpeg",
+      color: "bg-emerald-600",
+    },
+        {
+      id: "05",
+      category: "Environmental",
+      title: "Environmental",
+      description: "Environmental and Ecological Balance",
+      image: "/environment.jpg.jpeg",
       color: "bg-emerald-600",
     },
     {
-      id: "05",
-      category: "Science",
-      title: "Ancient Science & Tech",
-      description:
-        "Uncovering lost contributions in mathematics, metallurgy, and medicine from ancient Indian scholars.",
-      image:
-        "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=800&auto=format&fit=crop",
+      id: "06",
+      category: "National Security",
+      title: "National Security",
+      description: "National Security and Strategic Autonomy",
+      image: "/national security.jpg.jpeg",
       color: "bg-indigo-600",
     },
     {
-      id: "06",
-      category: "Innovation",
-      title: "Modern Innovation",
-      description:
-        "Showcasing the next wave of Indian startups that are solving global problems with indigenous solutions.",
-      image:
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
+      id: "07",
+      category: "Sustainable Development",
+      title: "Sustainable Development",
+      description: "Sustainable Development and Global Responsibilities",
+      image: "/sustainable dev.jpg.jpeg",
+      color: "bg-rose-600",
+    },
+     {
+      id: "08",
+      category: "Technological",
+      title: "Technological",
+      description: "Technological Self-Reliance and Innovation",
+      image: "/IndiasDefenceIndustry.jpeg",
+      color: "bg-rose-600",
+    },
+     {
+      id: "09",
+      category: "Unity",
+      title: "Unity",
+      description: "Social Harmony, Unity, and Inclusive Growth",
+      image: "/unity.jpg.jpeg",
       color: "bg-rose-600",
     },
   ];
@@ -661,11 +674,6 @@ const ThemeCircularLoop = () => {
                 <div className="absolute bottom-0 left-0 p-8 w-full flex flex-col justify-end h-full">
                   {/* Category Tag */}
                   <div className="mb-auto pt-4 flex justify-between items-start">
-                    <span
-                      className={`inline-block px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase text-white ${theme.color}`}
-                    >
-                      {theme.category}
-                    </span>
                     <span className="text-4xl font-black text-white/20 font-serif">
                       {theme.id}
                     </span>

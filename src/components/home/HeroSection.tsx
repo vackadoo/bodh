@@ -9,6 +9,7 @@ const HeroSection = () => {
           src="/banner.png"
           alt="Hero banner"
           className="w-full h-full object-cover object-center"
+          //  className="w-full h-full object-contains object-center"
         />
       </div>
 
